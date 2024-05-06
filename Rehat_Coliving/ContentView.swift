@@ -15,10 +15,15 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
             Text("wadidaw")
+
             Text("halo eva zeyenk")
             Image(systemName: "triangle")
             
         }
+
+            Text("punya eva")
+            Image(systemName: "triangle")        }
+
         .padding()
     }
 }
