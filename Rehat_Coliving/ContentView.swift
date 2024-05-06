@@ -15,7 +15,12 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
             Text("wadidaw")
-            Image(systemName: "triangle")        }
+            HStack(content: {
+                Image(systemName: "triangle")
+                Image(systemName: "triangle")
+            })
+            
+        }
         .padding()
     }
 }
